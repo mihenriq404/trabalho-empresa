@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja FutPaixão</title>
+    <link rel="stylesheet" href="loja.css">
+</head>
+
+<body>
+<h1>Catálogo - FutPaixão</h1>
+
+  <div class="carrinho" id="carrinho">
+    <h2>Carrinho</h2>
+    <div id="itens-carrinho"></div>
+    <div class="total" id="total">Total: R$ 0,00</div>
+  </div>
+
+  <div class="catalogo">
+
+    <div class="produto">
+      <img src="/imagens/Camisa Real Madrid.jpeg" alt="Camisa Real Madrid">
+      <div class="nome">Camisa Real Madrid casa 25/26</div>
+      <div class="preco">R$ 399,99</div>
+      <a href=# target="_blank" class="btn-comprar">Comprar</a>
+      <button class="btn-comprar" onclick="adicionarAoCarrinho('Camisa Real Madrid casa 25/26', 399.99)">Adicionar ao Carrinho</button>
+    </div>
+
+
+    <div class="produto">
+      <img src="/imagens/Chuteira.jpg" alt="Chuteira" class="imgchuteira">
+      <div class="nome">Chuteira Campo Nike Air Zoom Mercurial Superfly 9 Elite FG Branca e Dourado</div>
+      <div class="preco">R$ 575,88</div>
+      <a href=# target="_blank" class="btn-comprar">Comprar</a>
+      <button class="btn-comprar" onclick="adicionarAoCarrinho('Chuteira Campo Nike Air Zoom Mercurial Superfly 9 Elite FG Branca e Dourado', 575.88)">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+      <img src="/imagens/brazuca.jpg" alt="Bola">
+      <div class="nome">Bola de futebol adidas Brazuca</div>
+      <div class="preco">R$ 99,90</div>
+      <a href=# target="_blank" class="btn-comprar">Comprar</a>
+      <button class="btn-comprar" onclick="adicionarAoCarrinho('Bola de futebol adidas Brazuca', 99.90)">Adicionar ao Carrinho</button>
+    </div>
+        
+        <div class="produto">
+        <img src="/imagens/Calção Real Madrid.jpg" alt="Calção Real Madrid">
+        <div class="nome">Shorts Adidas Real Madrid 25/26 Masculino Branco</div>
+        <div class="preco">R$ 189,99</div>
+        <a href=# target="_blank" class="btn-comprar">Comprar</a>
+        <button class="btn-comprar" onclick="adicionarAoCarrinho('Shorts Adidas Real Madrid 25/26 Masculino Branco', 189.99)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="produto">
+        <img src="/imagens/meiao.jpg" alt="meião Real Madrid">
+        <div class="nome">Meião 1 Real Madrid 25/26 - Branco adidas | adidas Brasil</div>
+        <div class="preco">R$ 79,99</div>
+      <a href=# target="_blank" class="btn-comprar">Comprar</a>
+      <button class="btn-comprar" onclick="adicionarAoCarrinho('Meião 1 Real Madrid 25/26 - Branco adidas | adidas Brasil', 79.99)">Adicionar ao Carrinho</button>
+        </div>
+        
+       <div class="produto">
+        <img src="/imagens/conjunto de treino.jpg" alt="conjunto Real Madrid">
+        <div class="nome">Conjunto Real Madrid Treino 2023/24</div>
+        <div class="preco">R$ 249,90</div>
+        <a href=# target="_blank" class="btn-comprar">Comprar</a>
+        <button class="btn-comprar" onclick="adicionarAoCarrinho('Conjunto Real Madrid Treino 2023/24', 249.90)">Adicionar ao Carrinho</button>
+       </div>
+
+       <div class="produto">
+        <img src="/imagens/jaqueta.jpg" alt="jaqueta Real Madrid">
+        <div class="nome">Jaqueta Real Madrid Preta 17/18</div>
+        <div class="preco">R$ 189,90</div>
+        <a href=# target="_blank" class="btn-comprar">Comprar</a>
+        <button class="btn-comprar" onclick="adicionarAoCarrinho('Jaqueta Real Madrid Preta 17/18', 189.90)">Adicionar ao Carrinho</button>
+     </div>
+
+     <div class="produto">
+        <img src="/imagens/Camisa feminina.jpg" alt="Camisa feminina Real Madrid">
+        <div class="nome">Camisa Real Madrid Feminina 24/25</div>
+        <div class="preco">R$ 169,90</div>
+        <a href=# target="_blank" class="btn-comprar">Comprar</a>
+        <button class="btn-comprar" onclick="adicionarAoCarrinho('Camisa Real Madrid Feminina', 169.90)">Adicionar ao Carrinho</button>
+     </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
