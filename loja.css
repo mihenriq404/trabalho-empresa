@@ -63,7 +63,7 @@ body {
 
   .produto img {
     max-width: 100%;
-    border-radius: 5px;   /* ou 100% se preferir responsivo */
+    border-radius: 5px;   
     height: 200px;
     object-fit: cover;
    
